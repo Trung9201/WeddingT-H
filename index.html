@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding T&H</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <nav id="menu">
+        <div class="menu-list">
+            <a class="menu-item" href="#home">Home</a>
+            <a class="menu-item" href="#slider-tvh">Toan & Huyen</a>
+            <a class="menu-item" href="#wedding">Wedding</a>
+            <a class="menu-item" href="#rsvp">RSVP</a>
+        </div>
+    </nav>
+
+    <div id="home">
+        <div class="home-information">
+            <h1>Ngọc Toàn & Diệu Huyền</h1>
+            <h2 class="title">Are getting married</h2>
+            <h2>17.04.2022</h2>
+        </div>
+    </div>
+
+    <div id="slider-tvh">
+        <h1>Ngọc Toàn & Diệu Huyền</h1>
+        <div class="container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="/image/1.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="/image/2.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="/image/3.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="/image/4.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="/image/5.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="/image/6.jpg" alt=""></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="content">
+                <p>Tình yêu trao cho trái tim quyền năng mạnh nhất, đó chính là quyền tin vào những giá trị thực trên đời. Tình yêu cho chúng ta niềm tin rằng chuyện gì cũng đều có cách giải quyết, chỉ cần một người ở lại và yêu mình thì cuộc sống này luôn đáng sống.</p>
+                <p>Chúng tôi,</p>
+                <p>Ngọc Toàn & Diệu Huyền</p>
+                <p>Quyết định sẽ trao cho nhau quyền năng mạnh mẽ ấy trọn đời.</p>
+                <p>Trân trọng kính mời bạn tới dự hôn lễ của chúng tôi.</p>
+                <p>Sự hiện diện của bạn là niềm vinh hạnh cho gia đình chúng tôi.</p>
+                <button><a href="#rsvp">Wedding Details</a></button>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="background">
+        <div class="content">
+            <h1>We are delighted to invite you to our wedding ceremony</h1>
+            <h2>Your presence at our wedding will be a gift, but if you want to give something else, we would love that too.</h2>
+        </div>
+    </div>
+
+    <div id="wedding">
+        <div class="wedding-container">
+            <h1>THE WEDDING</h1>
+            <img src="/image/21.jpg" alt="">
+        </div>
+        <div class="wedding-content">
+            <div class="content-item">
+                <span>Thời gian</span>
+                <p>Tiệc cưới - 9am</p>
+                <p>Lễ cưới - 12am</p>
+            </div>
+            <div class="content-item">
+                <span>Địa điểm</span>
+                <p>Tại gia đình</p>
+                <p>Thái Học, Thái Thụy, Thái Bình</p>
+            </div>
+        </div>
+        
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14249.126928365247!2d106.51598468532093!3d20.48670778178401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ac8f65f1e510bc8!2zMjDCsDI5JzEyLjIiTiAxMDbCsDMxJzI5LjAiRQ!5e1!3m2!1svi!2s!4v1647435113816!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div id="rsvp">
+        <span>Hy vọng bạn sẽ đến chung vui cùng chúng tôi!</span>
+        <p>Hãy phản hồi trước 17.04.2022</p>
+        <button><a href="https://www.facebook.com/Machico.kakashi">RSVP via FaceBook</a></button>
+    </div>
+
+    <div id="footer">
+        <p>Powered by <a href="https://www.facebook.com/trunghips.0902">T&T&T</a></p>
+    </div>
+    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+        });
+    </script>
+</body>
+</html>
