@@ -116,7 +116,7 @@
 .swiper {
     width: 65%;
     height: fit-content;
-    filter: grayscale(50%);
+    filter: grayscale(20%);
 }
 
 .swiper .swiper-wrapper {
