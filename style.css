@@ -75,6 +75,7 @@
     font-weight: 600;
     font-size: 60px;
     margin: 10px 0;
+    font-family: 'Dancing Script', cursive;
 }
 
 .home-information h2 {
@@ -188,6 +189,7 @@
 
 .background .content h2 {
     font-size: 24px;
+    margin-top: 20px;
 }
 
 /* wedding */
